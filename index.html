@@ -1,0 +1,17 @@
+<html>
+
+<head>
+  <title>keyboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="textarea"> </h1>
+  <div id="keyboard"></div>
+  <button id="space" onclick="document.getElementById('textarea').innerHTML += ' '">space bar</button>
+  <button id="backspace"
+    onclick="document.getElementById('textarea').innerHTML = document.getElementById('textarea').innerHTML.slice(0, -1)">backspace</button>
+</body>
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+.key {
+  background-color: black;
+  position: relative;
+  left: 30%;
+  bottom: 537357%;
+  transform: translate(-30%, 500%);
+  color: white;
+  width: 40;
+  height: 40;
+  border: black 3px solid;
+  border-radius: 5px;
+}
+#textarea {
+  width: 70%;
+  height: 100;
+  background-color: cyan;
+  position: absolute;
+  border: black 5px solid;
+  border-radius: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#backspace {
+
+  background-color: black;
+  position: relative;
+  left: 30%;
+  transform: translate(-50%, 500%);
+  color: white;
+  width: 70;
+  height: 40;
+  border: black 3px solid;
+  border-radius: 5px;
+
+}
+#space {
+
+  background-color: black;
+  position: relative;
+  left: 45%;
+  transform: translate(-45%, 500%);
+  color: white;
+  width: 400;
+  height: 40;
+  border: black 3px solid;
+  border-radius: 5px;
+
+}
